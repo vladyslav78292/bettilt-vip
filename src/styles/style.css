@@ -839,7 +839,7 @@ footer {
   line-height: 44px;
   color: #fff;
   border: 0;
-  background: linear-gradient(180deg,#ff9e2c,#ffb72c),#ff9e2c;
+  background: linear-gradient(90deg, rgb(255, 199, 0) 0%, rgb(255, 234, 33) 100%), rgb(255, 158, 44);
 }
 
 .top_HomeBonus_title {
@@ -847,7 +847,7 @@ footer {
   padding: 5px 0;
   text-align: center;
   color: #fff;
-  background: #1095b5;
+  background: rgb(255, 199, 0);
   -webkit-text-stroke: 1px #fff;
   font-size: 28px;
   font-weight: 500
@@ -914,12 +914,11 @@ table {
   margin: 20px auto;
   width: 100%;
   border-collapse: collapse;
-  background-color: #e0f2f6
+  background-color: rgb(255, 199, 0);
 }
 
 table td {
   padding: 4px 10px;
-  border: 1px solid rgba(255,255,255,.4);
   border-collapse: collapse
 }
 
@@ -994,7 +993,7 @@ footer > div > p {
 }
 
 .select {
-  background: #01189D;
+  background: rgb(255, 199, 0);;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -1062,7 +1061,7 @@ footer > div > p {
   display: block;
   opacity: 0.5;
   color: #fff;
-  background-color: #01189D;
+  background-color: rgb(255, 199, 0);;
   padding-left: 0;
 }
 
@@ -1087,6 +1086,10 @@ footer > div > p {
 
 .column > li {
   width: 33%;
+}
+
+footer > .container > p {
+  text-align: center;
 }
 
 @media (max-width: 1110px) {
